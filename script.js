@@ -14,11 +14,11 @@ const getSum = () => {
   });
 
   const table = document.querySelector("table");
-  const existing = document.getElementById("#ans");
+  const existing = document.getElementById("ans");
   if (existing) existing.remove();
 
   const newRow = document.createElement("tr");
-  newRow.id = "#ans";
+  newRow.id = "ans";
 
   const totalCell = document.createElement("td");
   totalCell.colSpan = 2;
